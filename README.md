@@ -30,7 +30,7 @@ TravelApp, seyahat destinasyonlarını keşfetmenizi sağlayan basit bir web uyg
     git clone https://github.com/ulaskrsln
     ```
 
-2. Visual Studio'yu açın ve **TravelApp.sln** dosyasını açın.
+2. Visual Studio'yu açın ve **Test.sln** dosyasını açın.
 
 3. Uygulamayı başlatmak için Visual Studio üzerinden **Run** butonuna tıklayın veya terminal üzerinden aşağıdaki komutu kullanın:
 
