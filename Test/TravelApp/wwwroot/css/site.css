@@ -1,0 +1,111 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+/* Ana Baþlýk Stil */
+.main-title {
+    font-size: 3em; /* Büyük baþlýk */
+    font-weight: bold; /* Kalýn yazý */
+    color: #800000; /* Bordo renk */
+    text-align: center; /* Ortalanmýþ baþlýk */
+    margin-top: 30px; /* Baþlýk ile üst alan arasýna boþluk */
+    background-color: #d1c27b; /* Sarý arka plan rengi */
+    padding: 20px; /* Baþlýk etrafýnda biraz boþluk ekliyoruz */
+    border-radius: 8px; /* Baþlýk köþelerini yuvarlatýyoruz */
+}
+
+    .main-title + p {
+        font-size: 18px;
+        color: #555; /* Gri renk */
+        text-align: center;
+        margin-top: 20px;
+    }
+
+/* Navbar (Sekme) Stil */
+.navbar-nav {
+    display: flex; /* Sekmeleri yatayda hizalamak için */
+    justify-content: center; /* Sekmeleri ortalamak için */
+    width: 100%;
+   
+}
+
+    .navbar-nav .nav-item {
+        margin: 0 15px; /* Sekmeler arasýna boþluk */
+
+    }
+
+
+
+.nav-link {
+    color: #d1c27b; /* Sarý renk */
+    font-size: 1.2em; /* Sekme yazý boyutunu büyütüyoruz */
+    text-decoration: none; /* Linklerin altýný kaldýrýyoruz */
+    
+}
+
+    .nav-link:hover {
+        color: #ffffff; /* Hover efektinde yazý beyaz olacak */
+        text-decoration: underline; /* Link üzerine gelindiðinde altý çizilecek */
+    }
+
+.carousel-item img {
+    width: 100%;
+    height: 500px; /* Sabit yükseklik */
+    object-fit: cover; /* Görüntüyü kýrparak orantýlý þekilde sýðdýrýr */
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Yarý saydam siyah arka plan */
+    color: white; /* Yazý rengi beyaz */
+    padding: 10px; /* Yazý etrafýna biraz boþluk */
+    border-radius: 5px; /* Yuvarlatýlmýþ köþeler */
+}
+
+.destination-container {
+    display: flex; /* Flexbox ile yatayda hizalama */
+    justify-content: space-around; /* Aralarýndaki boþluklarý eþit þekilde daðýt */
+    flex-wrap: wrap; /* Eðer ekran daralýrsa alt satýra geçsin */
+    gap: 30px; /* Kartlar arasýndaki boþluðu ayarlayýn */
+    margin-top: 20px; /* Üstten boþluk ekleyelim */
+}
+
+.destination-item {
+    flex: 1 1 30%; /* Her bir eleman %30 geniþliðe sahip olacak */
+    background-color: #f5f5f5; /* Hafif gri arka plan */
+    padding: 20px; /* Ýçeriðe boþluk ekleyelim */
+    border-radius: 10px; /* Köþeleri yuvarlayalým */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Hafif gölge ekleyelim */
+    text-align: center; /* Yazýlarý ortalayalým */
+    transition: transform 0.3s ease-in-out; /* Hover efekti için geçiþ */
+}
+
+    .destination-item:hover {
+        transform: scale(1.05); /* Hover yapýldýðýnda büyüme efekti */
+    }
+
+    .destination-item img {
+        width: 100%; /* Resim geniþliði %100 */
+        height: 200px; /* Yükseklik sabit */
+        object-fit: cover; /* Resmi kýrpma */
+        border-radius: 10px; /* Resim köþelerini yuvarla */
+    }
+
