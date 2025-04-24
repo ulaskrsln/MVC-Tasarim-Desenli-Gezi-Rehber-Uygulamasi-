@@ -58,7 +58,3 @@ TravelApp, seyahat destinasyonlarını keşfetmenizi sağlayan basit bir web uyg
 2. Yeni bir özellik ekleyin veya hatayı düzeltin.
 3. Değişikliklerinizi göndermeden önce, ana dal ile senkronize olduğunuzdan emin olun.
 4. Pull request açın.
-
-## Lisans
-
-Bu proje **MIT Lisansı** ile lisanslanmıştır. Daha fazla bilgi için [LICENSE](LICENSE) dosyasına bakabilirsiniz.
